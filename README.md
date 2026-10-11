@@ -4,7 +4,7 @@
 
 Analista de TI na CAOA Montadora (Anápolis/GO), em uma planta de montagem de veículos Chery e Changan. Atuo na sustentação, evolução e validação dos sistemas que apoiam a produção, como impressão e sequenciamento de etiquetas, controle de produção, qualidade, logística/armazém e integração com o ERP. Minha base é a investigação de causa raiz: cruzar o comportamento da aplicação com os dados no banco até encontrar o ponto exato da falha.
 
-Estou consolidando minha carreira em Qualidade de Software, com foco em testes funcionais, validação de dados e, como próximo passo, automação e testes de API.
+Estou consolidando minha carreira em Qualidade de Software, com foco em testes funcionais, validação de dados, automação e testes de API. Os projetos abaixo mostram essa prática.
 
 ---
 
@@ -35,6 +35,16 @@ Estou consolidando minha carreira em Qualidade de Software, com foco em testes f
 - *Automação de infraestrutura com IA:* por iniciativa própria, implementei um agente de IA no servidor para automatizar tratativas recorrentes, como religamento de portas e reinício de serviços que geram lentidão.
 - *Modernização:* participo da análise e da proposta de migração dos sistemas ColdFusion para uma arquitetura em nuvem (AWS).
 
+## Projetos de portfólio (QA)
+
+Projetos inspirados em sistemas reais de chão de fábrica, reescritos do zero com dados fictícios para demonstrar a parte de testes.
+
+| Projeto | O que mostra | Stack de testes |
+|---|---|---|
+| [controle-quimicos-qa](https://github.com/VitraSan/controle-quimicos-qa) | Requisição de químicos com FEFO, validade e fechamento automático. Plano de testes, casos de teste e 2 bugs documentados | Jest, Supertest, Playwright, GitHub Actions |
+| [monitor-integracao-qa](https://github.com/VitraSan/monitor-integracao-qa) | API de integração MES → ERP com contrato OpenAPI, testes de contrato e coleção Postman | Jest + Ajv, Postman/Newman, GitHub Actions |
+| [etiquetas-vin-bdd](https://github.com/VitraSan/etiquetas-vin-bdd) | 55 cenários BDD em Gherkin (português) rodando nas camadas de domínio e API, com matriz de rastreabilidade | Cucumber, Supertest, GitHub Actions |
+
 ## Tecnologias
 
 | Área | Ferramentas |
@@ -43,9 +53,11 @@ Estou consolidando minha carreira em Qualidade de Software, com foco em testes f
 | Desenvolvimento | ColdFusion (CFML), JavaScript, HTML, CSS, Bootstrap, Java (integração) |
 | ERP e indústria | Protheus/TOTVS, MES |
 | Dados | Power BI (conexão com Oracle) |
+| Testes | Jest, Supertest, Playwright, Cucumber (BDD/Gherkin), Postman/Newman, OpenAPI |
 | Processo | Git (branches e code review), Jira, Scrum |
+| CI/CD | GitHub Actions |
 
-*Estudando:* automação de testes, testes de API e CI/CD
+*Estudando:* testes de performance e aprofundamento em automação
 
 ## Formação
 
